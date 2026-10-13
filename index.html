@@ -16,18 +16,10 @@
 <section id="community" style="padding-top:0"><div class="wrap"><div class="section-label">What we're imagining</div><div class="cards"><div class="card"><h3>Meet up</h3><p>Talk training, equipment, race plans, and lessons learned over coffee or a beer.</p></div><div class="card"><h3>Move together</h3><p>Casual rides, runs, walks, and perhaps swims as the community takes shape.</p></div><div class="card"><h3>Cheer each other on</h3><p>From a first sprint triathlon to the next big race, every starting line counts.</p></div></div></div></section>
 <section id="newsletter" class="newsletter"><div class="wrap"><div><div class="section-label">A monthly note from TriNKY</div><h2>Good company.<br>Good momentum.</h2><p>Get occasional updates as the community comes together: potential meetups, training conversations, local races, and ways to connect. No spam, no pressure.</p></div>
 <div class="signup"><h3 style="font-size:1.5rem;margin-top:0">Join the mailing list</h3>
-<form id="signup-form"><label for="email">Email address</label><input id="email" type="email" name="email" autocomplete="email" placeholder="you@example.com" required><button class="cta" type="submit">Join the list →</button></form>
-<p class="small">Only community updates. Unsubscribe whenever you like.</p><p id="signup-status" class="small notice" role="status">Signup is not yet connected. We're preparing the mailing list.</p></div>
+<form id="signup-form" class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/trinky" method="post"><label for="bd-email">Email address</label><input id="bd-email" type="email" name="email" autocomplete="email" placeholder="you@example.com" required><button class="cta" type="submit">Join the list →</button></form>
+<p class="small">Only community updates. Unsubscribe whenever you like.</p><p class="small">Signups are handled by <a href="https://buttondown.com/trinky" target="_blank" rel="noopener noreferrer">Buttondown</a>. We use your email for TriNKY updates. Unsubscribe any time.</p></div>
 </div></section></main>
 <footer class="foot"><div class="wrap"><span>© <span id="year"></span> TriNKY · Swim · Ride · Run · Together</span><span>Rooted in Northern Kentucky. Open to everyone.</span></div></footer>
 <script>
 document.getElementById('year').textContent=new Date().getFullYear();
-// Configure a real newsletter provider before accepting signups.
-// Replace this empty string with a reviewed, provider-hosted HTTPS form action.
-const NEWSLETTER_FORM_ACTION='';
-const form=document.getElementById('signup-form');
-form.addEventListener('submit',e=>{
- if(!NEWSLETTER_FORM_ACTION){e.preventDefault();document.getElementById('signup-status').textContent='Signup is coming soon. Please check back!';return;}
- form.action=NEWSLETTER_FORM_ACTION;form.method='POST';
-});
 </script></body></html>
