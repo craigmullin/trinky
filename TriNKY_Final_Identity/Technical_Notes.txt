@@ -1,0 +1,13 @@
+TriNKY vector export technical checks
+
+TriNKY_Master.svg: 28 paths, 3 circles, no embedded images, no live text
+TriNKY_Reversed.svg: 28 paths, 3 circles, no embedded images, no live text
+TriNKY_Symbol.svg: 22 paths, 3 circles, no embedded images, no live text
+TriNKY_Monochrome_Plum.svg: 28 paths, 3 circles, no embedded images, no live text
+TriNKY_Monochrome_White.svg: 28 paths, 3 circles, no embedded images, no live text
+
+Visual composition remains that of the approved TriNKY_Combined_Master.svg.
+The existing R curve and any residual geometric irregularities have NOT been manually reconstructed.
+Reversed version changes plum artwork to chalk while retaining orange/lime accents.
+The monochrome variants recolor all original fills.
+Minimum sizes are recommendations requiring physical production testing.
