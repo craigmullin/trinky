@@ -1,19 +1,17 @@
 # TriNKY
 
-A responsive static landing page for a Northern Kentucky-rooted triathlon community, open to everyone.
+Responsive GitHub Pages landing page for a Northern Kentucky-rooted triathlon community, open to everyone.
 
-## Current status
+## Website
+https://craigmullin.github.io/trinky/
 
-`index.html` is a working portfolio preview. **Newsletter signup is not connected** and does not collect addresses yet. The page says so.
+## Newsletter
+The signup form in `index.html` posts directly to the Buttondown-provided endpoint `https://buttondown.com/api/emails/embed-subscribe/trinky`. Test a real subscription and confirmation before sharing publicly. No API keys are used in client-side code. Buttondown handles subscription and unsubscribe flows.
+
+## Approved branding
+The exact approved SVGs are currently on the owner's local machine at `cmullin/code/trinky/TriNKY_Final_Identity`. They are **not in GitHub yet**. Push the master and reversed SVGs, then replace the temporary text-based wordmark in `index.html` with the real approved asset. Do not regenerate the logo.
 
 ## Deployment
+GitHub Pages is configured to deploy from `main`. Changes may take a few minutes to publish.
 
-In GitHub: Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
-
-## Next steps
-
-1. Upload the exact approved SVG logo to `assets/trinky-master.svg` and symbol to `assets/trinky-symbol.svg`; embed these in the page instead of the temporary text fallback.
-2. Choose a consent-based newsletter provider, connect and test its documented signup form, and add a privacy notice.
-3. Test mobile, desktop, signup and unsubscribe before sharing publicly.
-
-See [docs/HANDOFF.md](docs/HANDOFF.md) for the full brief. Never commit API keys to this public repository.
+See [docs/HANDOFF.md](docs/HANDOFF.md) for the full design brief.
