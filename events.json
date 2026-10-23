@@ -58,9 +58,9 @@
     {
         "date": "2027-08-01",
         "name": "Loveland Frogman Race",
-        "type": "triathlon*",
+        "type": "triathlon",
         "location": "Loveland, OH",
-        "description": "8/1 IS NOT CONFIRMED. DATE IS TBD! *Kayak/Bike/Run!",
+        "description": "8/1 IS NOT CONFIRMED. DATE IS TBD! Kayak/Bike/Run!",
         "url": "https://www.trisignup.com/Race/Events/OH/Loveland/LovelandFrogmanRace"
     },
     {
@@ -114,7 +114,7 @@
     {
         "date": "2027-04-11",
         "name": "PNC Tour de Lou",
-        "type": "cycling",
+        "type": "bike",
         "location": "Louisville, KY",
         "description": "Various distances up to metric century.",
         "url": "https://discover.kdf.org/tour-de-lou/"
