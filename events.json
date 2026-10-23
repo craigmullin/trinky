@@ -62,5 +62,61 @@
         "location": "Loveland, OH",
         "description": "8/1 IS NOT CONFIRMED. DATE IS TBD! *Kayak/Bike/Run!",
         "url": "https://www.trisignup.com/Race/Events/OH/Loveland/LovelandFrogmanRace"
+    },
+    {
+        "date": "2027-07-10",
+        "name": "IRONMAN 70.3 - Muncie",
+        "type": "triathlon",
+        "location": "Muncie, IN",
+        "description": "",
+        "url": "https://www.ironman.com/races/im703-muncie"
+    },
+    {
+        "date": "2027-07-18",
+        "name": "IRONMAN 70.3 - Ohio",
+        "type": "triathlon",
+        "location": "Sandusky, OH",
+        "description": "",
+        "url": "https://www.ironman.com/races/im703-ohio"
+    },
+    {
+        "date": "2027-05-16",
+        "name": "IRONMAN 70.3 - Chattanooga",
+        "type": "triathlon",
+        "location": "Chattanooga, TN",
+        "description": "",
+        "url": "https://www.ironman.com/races/im703-chattanooga"
+    },
+    {
+        "date": "2027-09-26",
+        "name": "IRONMAN - Chattanooga",
+        "type": "triathlon",
+        "location": "Chattanooga, TN",
+        "description": "",
+        "url": "https://www.ironman.com/races/im-chattanooga"
+    },
+    {
+        "date": "2027-05-23",
+        "name": "IRONMAN 70.3 - Pennsylvania Happy Valley",
+        "type": "triathlon",
+        "location": "State College, PA",
+        "description": "",
+        "url": "https://www.ironman.com/races/im703-pennsylvania"
+    },
+    {
+        "date": "2027-06-13",
+        "name": "IRONMAN 70.3 - Eagleman",
+        "type": "triathlon",
+        "location": "Cambridge, MD",
+        "description": "",
+        "url": "https://www.ironman.com/races/im703-eagleman"
+    },
+    {
+        "date": "2027-04-11",
+        "name": "PNC Tour de Lou",
+        "type": "cycling",
+        "location": "Louisville, KY",
+        "description": "Various distances up to metric century.",
+        "url": "https://discover.kdf.org/tour-de-lou/"
     }
 ]
