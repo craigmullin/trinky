@@ -1,1 +1,66 @@
-[]
+[
+    {
+        "date": "2027-04-17",
+        "name": "The Mullet Triathlon at the Flora-Bama",
+        "type": "triathlon",
+        "location": "Perdido Key, FL",
+        "description": "Sprint-distance race.",
+        "url": "https://www.florabama.com/mullet-triathlon"
+    },
+    {
+        "date": "2027-09-11",
+        "name": "Brett/Robinson Alabama Coastal Triathlon",
+        "type": "triathlon",
+        "location": "Gulf Shores, AL",
+        "description": "Sprint & Olympic-distance races.",
+        "url": "https://www.magicsportsusa.com/events/alabama-coastal"
+    },
+    {
+        "date": "2027-08-21",
+        "name": "Chicago Triathlon",
+        "type": "triathlon",
+        "location": "Chicago, IL",
+        "description": "Multiple distances.",
+        "url": "https://supertri.com/chicago/"
+    },
+    {
+        "date": "2027-08-23",
+        "name": "RVA Sprint Triathlon",
+        "type": "triathlon",
+        "location": "Richmond, VA",
+        "description": "Beginner-friendly. Pool swim!",
+        "url": "https://livered.org/rvatriathlon/"
+    },
+    {
+        "date": "2027-07-11",
+        "name": "Tri Louisville",
+        "type": "triathlon",
+        "location": "Louisville, KY",
+        "description": "Multiple distances.",
+        "url": "https://www.magicsportsusa.com/events/tri-louisville"
+    },
+    {
+        "date": "2027-08-01",
+        "name": "Cincinnati Triathlon & Multisport Festival",
+        "type": "triathlon",
+        "location": "Caesar Creek State Park, Waynesville, OH",
+        "description": "8/1 IS NOT CONFIRMED. DATE IS TBD! Multiple distances.",
+        "url": "https://www.zoomracingusa.com/zoom-tri-bc/"
+    },
+    {
+        "date": "2027-08-01",
+        "name": "Mojo Triathlon",
+        "type": "triathlon",
+        "location": "VOA Park, West Chester, OH",
+        "description": "8/1 IS NOT CONFIRMED. DATE IS TBD!",
+        "url": "https://mojotriathlon.com/"
+    },
+    {
+        "date": "2027-08-01",
+        "name": "Loveland Frogman Race",
+        "type": "triathlon*",
+        "location": "Loveland, OH",
+        "description": "8/1 IS NOT CONFIRMED. DATE IS TBD! *Kayak/Bike/Run!",
+        "url": "https://www.trisignup.com/Race/Events/OH/Loveland/LovelandFrogmanRace"
+    }
+]
