@@ -1,0 +1,26 @@
+---
+layout: default
+title: Training Journal
+description: Training notes, community stories, and small steps toward the next starting line.
+permalink: /blog/
+---
+<section class="hero"><div class="wrap">
+  <div class="eyebrow">TriNKY / The Training Journal</div>
+  <h1>Every journey<br>starts <em>somewhere.</em></h1>
+  <p>Training notes, community stories, lessons learned, and small steps toward the next starting line. All paces, all experience levels, all welcome.</p>
+</div></section>
+<main class="content"><div class="wrap">
+  {% if site.posts.size > 0 %}
+    <div class="post-list">
+    {% for post in site.posts %}
+      <article class="post-card">
+        <div class="meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.author %} · {{ post.author | escape }}{% endif %}</div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        <p class="excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 220 }}</p>
+      </article>
+    {% endfor %}
+    </div>
+  {% else %}
+    <div class="empty"><h2>The first entry is still to come.</h2><p>Check back soon for training notes, local adventures, and stories from the TriNKY community.</p></div>
+  {% endif %}
+</div></main>
