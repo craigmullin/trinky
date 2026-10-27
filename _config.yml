@@ -1,0 +1,8 @@
+title: TriNKY
+description: A welcoming swim, ride, run community rooted in Northern Kentucky.
+url: "https://tri-nky.com"
+baseurl: ""
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
