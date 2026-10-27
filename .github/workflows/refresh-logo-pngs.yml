@@ -1,0 +1,35 @@
+name: Refresh TriNKY PNG exports
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'TriNKY_Final_Identity/TriNKY_Master.svg'
+      - 'TriNKY_Final_Identity/TriNKY_Reversed.svg'
+      - 'TriNKY_Final_Identity/TriNKY_Symbol.svg'
+      - 'TriNKY_Final_Identity/TriNKY_Symbol_Reversed.svg'
+      - 'scripts/export-logo-pngs.py'
+      - '.github/workflows/refresh-logo-pngs.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install cairosvg pillow
+      - run: python scripts/export-logo-pngs.py
+      - name: Commit refreshed PNG exports
+        run: |
+          if [[ -n "$(git status --porcelain TriNKY_Final_Identity/*.png)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add TriNKY_Final_Identity/*.png
+            git commit -m "Refresh PNG exports for final Kentucky logo"
+            git push
+          fi
