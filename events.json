@@ -40,11 +40,11 @@
         "url": "https://www.magicsportsusa.com/events/tri-louisville"
     },
     {
-        "date": "2027-08-01",
-        "name": "Cincinnati Triathlon & Multisport Festival",
+        "date": "2027-06-13",
+        "name": "Buckeye Triathlon & Multisport Festival",
         "type": "triathlon",
         "location": "Caesar Creek State Park, Waynesville, OH",
-        "description": "8/1 IS NOT CONFIRMED. DATE IS TBD! Multiple distances.",
+        "description": "Multiple distances.",
         "url": "https://www.zoomracingusa.com/zoom-tri-bc/"
     },
     {
@@ -116,6 +116,14 @@
         "name": "PNC Tour de Lou",
         "type": "bike",
         "location": "Louisville, KY",
+        "description": "Various distances up to metric century.",
+        "url": "https://discover.kdf.org/tour-de-lou/"
+    },
+    {
+        "date": "2027-06-13",
+        "name": "The Buckeye Triathlon & Multisport Festival",
+        "type": "triathlon",
+        "location": "Waynesville, OH",
         "description": "Various distances up to metric century.",
         "url": "https://discover.kdf.org/tour-de-lou/"
     }
