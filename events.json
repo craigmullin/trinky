@@ -120,11 +120,35 @@
         "url": "https://discover.kdf.org/tour-de-lou/"
     },
     {
-        "date": "2027-06-13",
-        "name": "The Buckeye Triathlon & Multisport Festival",
+        "date": "2027-06-26",
+        "name": "VA Super Tri",
         "type": "triathlon",
-        "location": "Waynesville, OH",
-        "description": "Various distances up to metric century.",
-        "url": "https://discover.kdf.org/tour-de-lou/"
+        "location": "Midlothian, VA",
+        "description": "Five mini-tris back-to-back!",
+        "url": "https://livered.org/super-tri/"
+    },
+    {
+        "date": "2027-09-19",
+        "name": "Robious Landing Triathlon",
+        "type": "triathlon",
+        "location": "Midlothian, VA",
+        "description": "Multiple sprint races.",
+        "url": "https://livered.org/robiouslandingtriathlon/"
+    },
+    {
+        "date": "2027-05-02",
+        "name": "East Coast Triathlon Festival",
+        "type": "triathlon",
+        "location": "Glen Allen, VA",
+        "description": "Draft legal!",
+        "url": "https://livered.org/east-coast-triathlon-festival/"
+    },
+    {
+        "date": "2027-08-29",
+        "name": "Cal Tri Charlottesville",
+        "type": "triathlon",
+        "location": "Charlottesville, VA",
+        "description": "Multiple sprint races.",
+        "url": "https://charlottesville.californiatriathlon.org/"
     }
 ]
